@@ -1,0 +1,57 @@
+@import '../../css/variables';
+
+.rightBar {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: $background-3th-color;
+  min-width: 200px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 3rem;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .header__notification {
+      border: none;
+      width: 3rem;
+      height: 3rem;
+      // line-height: 40px;
+      background-color: $background-2th-color;
+      border-radius: 0.8rem;
+      // padding-top: 0;
+      // cursor: pointer;
+
+      .MuiSvgIcon-root {
+        font-size: 2.4rem;
+        color: $main-color;
+        transform: translateY(-1px);
+      }
+      .css-jcn4dz-MuiBadge-badge {
+        font-size: 1.3rem;
+        right: -2px;
+        top: -4px;
+        background-color: $main-color;
+      }
+    }
+
+    .account__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      // margin-left: 2px;
+      // margin-right: 2px;
+      h4 {
+        font-size: 1.3rem;
+        color: rgba(0, 0, 0, 0.7);
+        padding-bottom: 2px;
+      }
+    }
+    .css-12bapnq-MuiAvatar-root {
+      border-radius: 1rem;
+    }
+  }
+}

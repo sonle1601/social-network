@@ -1,0 +1,69 @@
+.rightBar {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #ffffff;
+  min-width: 200px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 3rem;
+}
+
+.rightBar__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rightBar__header .header__notification {
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  background-color: #ffe6e1;
+  border-radius: 0.8rem;
+}
+
+.rightBar__header .header__notification .MuiSvgIcon-root {
+  font-size: 2.4rem;
+  color: #fe8864;
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+}
+
+.rightBar__header .header__notification .css-jcn4dz-MuiBadge-badge {
+  font-size: 1.3rem;
+  right: -2px;
+  top: -4px;
+  background-color: #fe8864;
+}
+
+.rightBar__header .account__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.rightBar__header .account__text h4 {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.7);
+  padding-bottom: 2px;
+}
+
+.rightBar__header .css-12bapnq-MuiAvatar-root {
+  border-radius: 1rem;
+}
+/*# sourceMappingURL=RightBar.css.map */

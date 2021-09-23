@@ -1,0 +1,49 @@
+.leftBar {
+  min-width: 200px;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  background-color: #ffffff;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.leftBar__logo {
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border-radius: 1rem;
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+  width: 8rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff6200), to(rgba(255, 98, 0, 0.5)));
+  background: linear-gradient(180deg, #ff6200, rgba(255, 98, 0, 0.5));
+  color: white;
+  cursor: pointer;
+}
+
+.leftBarBtn {
+  color: #900c3e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.leftBarBtn .MuiSvgIcon-root {
+  margin-right: 2rem;
+  font-size: 2rem;
+}
+
+.leftBarBtn h3::first-letter {
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=LeftBar.css.map */
